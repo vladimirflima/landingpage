@@ -43,3 +43,39 @@ body {
 .btn:hover {
     background-color: #005a9e;
 }
+
+
+.dark-mode {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.dark-mode .container {
+    background-color: #404040; 
+    color: #ffffff; 
+}
+
+.dark-mode .header h1 {
+    color: #ffffff;
+}
+
+.dark-mode .proposal h2 {
+    color: #ffffff;
+}
+
+.dark-mode .cta p {
+    color: #ffffff;
+}
+
+.dark-mode .benefits h2 {
+    color: #ffffff;
+}
+
+.dark-mode .benefits p {
+    color: #cccccc;
+}
+
+.dark-mode .testimonial blockquote {
+    border-left: 5px solid #ffffff;
+    color: #ffffff;
+}
