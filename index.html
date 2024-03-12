@@ -8,10 +8,6 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="dark-mode-toggle">
-        <input type="checkbox" id="darkModeToggle">
-        <label for="darkModeToggle">Modo Escuro</label>
-    </div>
     <div class="container">
         <div class="header">
             <h1>Bem vindo ao VetApp</h1>
@@ -21,8 +17,15 @@
             <p>VetApp: Combina familiaridade e inovação para redefinir como trabalhamos, criamos e nos conectamos, impulsionando a produtividade e a segurança.</p>
         </div>
         <div class="cta">
-            <p>Acesse agora e aproveite todas as funcionalidades incríveis!</p>
-            <a href="#" class="btn">Acesse Agora</a>
+            <div class="user-info">
+                <h2>Aproveite todas as funcionalidades incríveis!</h2>
+                <form action="#" method="post">
+                    <input type="text" name="nome" placeholder="Nome"> <br>
+                    <input type="email" name="email" placeholder="E-mail"> <br>
+                    <input type="text" name="cidade" placeholder="Cidade"> <br>
+                    <input type="submit" value="Acesse Agora" class="btn">
+                </form>
+            </div>
         </div>
         <div class="benefits">
             <div class="easy-to-use">
@@ -42,8 +45,12 @@
             <h2>Testemunho</h2>
             <blockquote>
                 <p>"O VetApp mudou completamente a forma como trabalho. É incrivelmente fácil de usar e me ajudou a ser mais produtivo do que nunca!"</p>
-                <footer>- Joana Silva, Administrador</footer>
+                <footer>- Joana Silva, Administradora</footer>
             </blockquote>
+            <div class="dark-mode-toggle">
+                <input type="checkbox" id="darkModeToggle">
+                <label for="darkModeToggle">Modo Escuro</label>
+            </div>
         </div>
         
     </div>
