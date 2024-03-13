@@ -5,6 +5,36 @@ body {
     background-color: #f0f0f0;
 }
 
+input[type="text"], input[type="email"], input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #0078d4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #005a9e;
+}
+
+
+.dark-mode input[type="text"], .dark-mode input[type="email"], .dark-mode input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #666;
+}
+
+.dark-mode input[type="submit"]:hover {
+    background-color: #666;
+}
+
 .container {
     max-width: 600px;
     margin: 100px auto;
@@ -13,6 +43,13 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial blockquote {
+    border-left: 5px solid #0078d4; /* Cor da borda do bloco de citação */
+    padding-left: 10px;
+    font-style: italic;
+    color: #333; /* Cor do texto dentro do bloco de citação */
 }
 
 .header img {
